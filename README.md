@@ -6,45 +6,40 @@
 
 <br/>
 
-<div align="center">
+```yaml
+# qweyns.yml
 
-**java developer** · minecraft plugins · spigot / paper / bukkit
-
-пишу то, что работает незаметно — спавнеры, голограммы, кастомные механики  
-если игроки этого не замечают, значит сделано правильно
-
-`🌴 currently on vacation`
-
-</div>
+name:    qweyns
+lang:    Java 17+
+stack:   [ Spigot, Paper, Bukkit ]
+focus:   server-side mechanics — spawners, holograms, mascots, custom systems
+status:  on vacation 🌴
+```
 
 <br/>
 
 ---
 
-### 📦 Плагины
+```yaml
+# plugins
 
-| | Название | Описание |
-|--|----------|----------|
-| 🐑 | [WoolyHideJoinQuiet](https://github.com/Karton111321/WoolyHideJoinQuiet) | Скрывает join/quit сообщения игроков |
-| 🥚 | [SmashEgg](https://github.com/Karton111321/SmashEgg) | Механики со спавнерами |
-| 🕐 | [RussianTimeExpansion](https://github.com/Karton111321/RussianTimeExpansion) | Русский формат времени в стиле Small Caps |
-| 🔮 | [PSHologramm](https://github.com/Karton111321/PSHologramm) | Аддон голограмм |
-| ✨ | [QweMascots](https://github.com/Karton111321/QweMascots) | Сферы и талисманы |
+WoolyHideJoinQuiet:   hides player join / quit messages
+SmashEgg:             spawner mechanics
+RussianTimeExpansion: russian time format in Small Caps style
+PSHologramm:          hologram addon
+QweMascots:           spheres & mascots system
+```
 
 ---
 
-### 📊 Статистика
-
 <div align="center">
 
-<img height="155em" src="https://github-readme-stats.vercel.app/api?username=Karton111321&show_icons=true&hide_border=true&bg_color=0d1117&title_color=BBDEFB&icon_color=BBDEFB&text_color=90CAF9&ring_color=BBDEFB"/>
-<img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Karton111321&layout=compact&hide_border=true&bg_color=0d1117&title_color=BBDEFB&text_color=90CAF9"/>
+<img height="155em" src="https://github-readme-stats.vercel.app/api?username=Karton111321&show_icons=true&hide_border=true&bg_color=0d1117&title_color=BBDEFB&icon_color=BBDEFB&text_color=90CAF9&ring_color=BBDEFB&count_private=true&include_all_commits=true"/>
+<img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Karton111321&layout=compact&hide_border=true&bg_color=0d1117&title_color=BBDEFB&text_color=90CAF9&langs_count=6"/>
 
 </div>
 
 ---
-
-### 🔗 Найти меня
 
 <div align="center">
 
