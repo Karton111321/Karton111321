@@ -6,27 +6,29 @@
 
 <br/>
 
-### ⚡ Чем занимаюсь
-
-> Пишу плагины под Minecraft — механики, которые работают незаметно,  
-> но именно из-за них игроки остаются на сервере.
-
-- ☕ **Java** — основной стек, Bukkit / Spigot / Paper
-- 🔩 Люблю нетривиальные задачи: спавнеры, голограммы, кастомные механики
-- 🌴 Сейчас в небольшом отпуске
-
----
-
-### 🛠 Стек
+```
+  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██
+```
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java-%23BBDEFB.svg?style=for-the-badge&logo=openjdk&logoColor=0d1117)
-![Spigot](https://img.shields.io/badge/Spigot%2FPaper-%23BBDEFB?style=for-the-badge&logo=minecraft&logoColor=0d1117)
-![Git](https://img.shields.io/badge/Git-%23BBDEFB.svg?style=for-the-badge&logo=git&logoColor=0d1117)
-![GitHub](https://img.shields.io/badge/GitHub-%23BBDEFB.svg?style=for-the-badge&logo=github&logoColor=0d1117)
+```
+  [ SPIGOT ]   [ PAPER ]   [ BUKKIT ]   [ JAVA 17+ ]   [ 🌴 ON VACATION ]
+```
 
 </div>
+
+```
+  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██  ██
+```
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;`//` пишу плагины — те самые мелочи, из-за которых не уходят с сервера  
+&nbsp;&nbsp;&nbsp;&nbsp;`//` спавнеры, голограммы, талисманы, сферы и прочая нечисть  
+&nbsp;&nbsp;&nbsp;&nbsp;`//` если механика работает незаметно — значит сделано правильно  
+
+<br/>
 
 ---
 
