@@ -12,9 +12,7 @@
 
 <br/>
 
-<img height="155em" src="https://github-readme-stats.vercel.app/api?username=Karton111321&show_icons=true&hide_border=true&bg_color=0d1117&title_color=BBDEFB&icon_color=BBDEFB&text_color=90CAF9&ring_color=BBDEFB&count_private=true"/>
-&nbsp;
-<img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Karton111321&layout=compact&hide_border=true&bg_color=0d1117&title_color=BBDEFB&text_color=90CAF9"/>
+![stats](./stats.svg)
 
 <br/>
 
