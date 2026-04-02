@@ -16,73 +16,39 @@
     <stop offset="0%"   stop-color="#BBDEFB" stop-opacity="0.15"/>
     <stop offset="100%" stop-color="#BBDEFB" stop-opacity="0"/>
   </linearGradient>
-  <filter id="glow">
-    <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glow2" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
     <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
   <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M40 0 L0 0 0 40" fill="none" stroke="#BBDEFB" stroke-width="0.18" opacity="0.13"/>
+    <path d="M40 0 L0 0 0 40" fill="none" stroke="#BBDEFB" stroke-width="0.18" opacity="0.12"/>
   </pattern>
   
 </defs>
 <rect width="860" height="80" fill="#0d1117"/>
 <rect width="860" height="80" fill="url(#grid)"/>
 
-  <rect x="674" y="47" width="3" height="3" fill="#BBDEFB" opacity="0.18">
-  <animate attributeName="y" values="47;-19" dur="8.0s" begin="1.1s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.18;0.18;0" dur="8.0s" begin="1.1s" repeatCount="indefinite"/>
-</rect>
-<rect x="778" y="97" width="2" height="2" fill="#BBDEFB" opacity="0.18">
-  <animate attributeName="y" values="97;14" dur="10.7s" begin="0.3s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.18;0.18;0" dur="10.7s" begin="0.3s" repeatCount="indefinite"/>
-</rect>
-<rect x="258" y="72" width="2" height="2" fill="#BBDEFB" opacity="0.36">
-  <animate attributeName="y" values="72;18" dur="10.5s" begin="5.7s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.36;0.36;0" dur="10.5s" begin="5.7s" repeatCount="indefinite"/>
-</rect>
-<rect x="449" y="54" width="4" height="4" fill="#BBDEFB" opacity="0.38">
-  <animate attributeName="y" values="54;8" dur="8.2s" begin="7.0s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.38;0.38;0" dur="8.2s" begin="7.0s" repeatCount="indefinite"/>
-</rect>
-<rect x="183" y="84" width="3" height="3" fill="#BBDEFB" opacity="0.38">
-  <animate attributeName="y" values="84;7" dur="8.2s" begin="1.7s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.38;0.38;0" dur="8.2s" begin="1.7s" repeatCount="indefinite"/>
-</rect>
-<rect x="124" y="45" width="2" height="2" fill="#BBDEFB" opacity="0.23">
-  <animate attributeName="y" values="45;4" dur="8.9s" begin="2.8s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.23;0.23;0" dur="8.9s" begin="2.8s" repeatCount="indefinite"/>
-</rect>
-<rect x="64" y="86" width="4" height="4" fill="#BBDEFB" opacity="0.17">
-  <animate attributeName="y" values="86;9" dur="7.0s" begin="7.4s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.17;0.17;0" dur="7.0s" begin="7.4s" repeatCount="indefinite"/>
-</rect>
-<rect x="320" y="93" width="4" height="4" fill="#BBDEFB" opacity="0.21">
-  <animate attributeName="y" values="93;20" dur="13.1s" begin="2.9s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.21;0.21;0" dur="13.1s" begin="2.9s" repeatCount="indefinite"/>
-</rect>
-<rect x="91" y="42" width="2" height="2" fill="#BBDEFB" opacity="0.41">
-  <animate attributeName="y" values="42;22" dur="12.2s" begin="7.9s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.41;0.41;0" dur="12.2s" begin="7.9s" repeatCount="indefinite"/>
-</rect>
-<rect x="123" y="64" width="3" height="3" fill="#BBDEFB" opacity="0.26">
-  <animate attributeName="y" values="64;-3" dur="11.1s" begin="2.9s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;0.26;0.26;0" dur="11.1s" begin="2.9s" repeatCount="indefinite"/>
-</rect>
+  <rect x="674" y="47" width="3" height="3" fill="#BBDEFB" opacity="0.25"><animate attributeName="y" values="47;-19" dur="9.5s" begin="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.25;0.25;0" dur="9.5s" begin="2.2s" repeatCount="indefinite"/></rect>
+<rect x="712" y="87" width="2" height="2" fill="#BBDEFB" opacity="0.14"><animate attributeName="y" values="87;14" dur="12.3s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.14;0.14;0" dur="12.3s" begin="0.3s" repeatCount="indefinite"/></rect>
+<rect x="258" y="72" width="2" height="2" fill="#BBDEFB" opacity="0.25"><animate attributeName="y" values="72;18" dur="12.1s" begin="7.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.25;0.25;0" dur="12.1s" begin="7.2s" repeatCount="indefinite"/></rect>
+<rect x="449" y="54" width="3" height="3" fill="#BBDEFB" opacity="0.26"><animate attributeName="y" values="54;8" dur="9.5s" begin="8.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.26;0.26;0" dur="9.5s" begin="8.7s" repeatCount="indefinite"/></rect>
+<rect x="183" y="84" width="2" height="2" fill="#BBDEFB" opacity="0.26"><animate attributeName="y" values="84;7" dur="9.5s" begin="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.26;0.26;0" dur="9.5s" begin="2.2s" repeatCount="indefinite"/></rect>
+<rect x="124" y="45" width="2" height="2" fill="#BBDEFB" opacity="0.17"><animate attributeName="y" values="45;4" dur="10.2s" begin="3.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.17;0.17;0" dur="10.2s" begin="3.4s" repeatCount="indefinite"/></rect>
+<rect x="64" y="86" width="3" height="3" fill="#BBDEFB" opacity="0.13"><animate attributeName="y" values="86;9" dur="8.1s" begin="9.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.13;0.13;0" dur="8.1s" begin="9.2s" repeatCount="indefinite"/></rect>
+<rect x="320" y="93" width="3" height="3" fill="#BBDEFB" opacity="0.15"><animate attributeName="y" values="93;20" dur="15.0s" begin="3.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.15;0.15;0" dur="15.0s" begin="3.6s" repeatCount="indefinite"/></rect>
 
   <path d="M0,22 Q215,2 430,22 Q645,42 860,22 L860,0 L0,0 Z" fill="url(#GV)">
-    <animate attributeName="d"
-      values="M0,22 Q215,2 430,22 Q645,42 860,22 L860,0 L0,0 Z;
-              M0,32 Q215,12 430,32 Q645,52 860,32 L860,0 L0,0 Z;
-              M0,22 Q215,2 430,22 Q645,42 860,22 L860,0 L0,0 Z"
-      dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="d" values="M0,22 Q215,2 430,22 Q645,42 860,22 L860,0 L0,0 Z;M0,32 Q215,12 430,32 Q645,52 860,32 L860,0 L0,0 Z;M0,22 Q215,2 430,22 Q645,42 860,22 L860,0 L0,0 Z" dur="6s" repeatCount="indefinite"/>
   </path>
-  <text x="430" y="46" font-family="MinecraftFive,monospace" font-size="10"
+  <text x="430" y="46" font-family="MinecraftFive,monospace" font-size="11"
         fill="url(#G)" text-anchor="middle" letter-spacing="3" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.35;0.7;0.35" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="4s" repeatCount="indefinite"/>
     // made with java and caffeine
   </text>
-  <rect x="0" y="76" width="860" height="4" fill="url(#G)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="0" y="76" width="860" height="4" fill="url(#G)"><animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></rect>
 
 </svg>
