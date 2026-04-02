@@ -1,47 +1,44 @@
 <div align="center">
 
-# 🧩 qweyns
+![header](./header.svg)
 
-**Minecraft Plugin Developer · Java**
+</div>
 
-*Делаю плагины, которые оживляют серверы*
+<br/>
+
+### ⚡ Чем занимаюсь
+
+> Пишу плагины под Minecraft — механики, которые работают незаметно,  
+> но именно из-за них игроки остаются на сервере.
+
+- ☕ **Java** — основной стек, Bukkit / Spigot / Paper
+- 🔩 Люблю нетривиальные задачи: спавнеры, голограммы, кастомные механики
+- 🌴 Сейчас в небольшом отпуске
+
+---
+
+### 🛠 Стек
+
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-%23BBDEFB.svg?style=for-the-badge&logo=openjdk&logoColor=0d1117)
+![Spigot](https://img.shields.io/badge/Spigot%2FPaper-%23BBDEFB?style=for-the-badge&logo=minecraft&logoColor=0d1117)
+![Git](https://img.shields.io/badge/Git-%23BBDEFB.svg?style=for-the-badge&logo=git&logoColor=0d1117)
+![GitHub](https://img.shields.io/badge/GitHub-%23BBDEFB.svg?style=for-the-badge&logo=github&logoColor=0d1117)
 
 </div>
 
 ---
 
-### 👾 О себе
+### 📦 Плагины
 
-```java
-public class Developer {
-    String  name     = "qweyns";
-    String  focus    = "Minecraft Plugin Development";
-    String  language = "Java";
-    boolean openToIdeas = true;
-}
-```
-
----
-
-### 🛠 Технологии
-
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
-![Spigot](https://img.shields.io/badge/Spigot-orange?style=flat-square&logo=minecraft&logoColor=white)
-![Paper](https://img.shields.io/badge/PaperMC-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PC9zdmc+&logoColor=white)
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=flat-square&logo=github&logoColor=white)
-
----
-
-### 📦 Мои плагины
-
-| Плагин | Описание |
-|--------|----------|
-| [🔇 WoolyHideJoinQuiet](https://github.com/Karton111321/WoolyHideJoinQuiet) | Скрывает сообщения о входе и выходе игроков |
-| [🥚 SmashEgg](https://github.com/Karton111321/SmashEgg) | Механики со спавнерами |
-| [🕐 RussianTimeExpansion](https://github.com/Karton111321/RussianTimeExpansion) | Русский формат времени в стиле Small Caps |
-| [💎 PSHologramm](https://github.com/Karton111321/PSHologramm) | Аддон для PlaceholderAPI с голограммами |
-| [🔮 QweMascots](https://github.com/Karton111321/QweMascots) | Плагин на сферы и талисманы |
+| | Название | Описание |
+|--|----------|----------|
+| 🐑 | [WoolyHideJoinQuiet](https://github.com/Karton111321/WoolyHideJoinQuiet) | Скрывает join/quit сообщения игроков |
+| 🥚 | [SmashEgg](https://github.com/Karton111321/SmashEgg) | Механики со спавнерами |
+| 🕐 | [RussianTimeExpansion](https://github.com/Karton111321/RussianTimeExpansion) | Русский формат времени в стиле Small Caps |
+| 🔮 | [PSHologramm](https://github.com/Karton111321/PSHologramm) | Аддон голограмм |
+| ✨ | [QweMascots](https://github.com/Karton111321/QweMascots) | Сферы и талисманы |
 
 ---
 
@@ -49,16 +46,27 @@ public class Developer {
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Karton111321&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&rank_icon=github)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Karton111321&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
+<img height="155em" src="https://github-readme-stats.vercel.app/api?username=Karton111321&show_icons=true&hide_border=true&bg_color=0d1117&title_color=BBDEFB&icon_color=BBDEFB&text_color=90CAF9&ring_color=BBDEFB"/>
+<img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Karton111321&layout=compact&hide_border=true&bg_color=0d1117&title_color=BBDEFB&text_color=90CAF9"/>
 
 </div>
 
 ---
 
+### 🔗 Найти меня
+
 <div align="center">
 
-*🌴 Currently on vacation*
+[![Telegram](https://img.shields.io/badge/@nyawexi-%23BBDEFB?style=for-the-badge&logo=telegram&logoColor=0d1117)](https://t.me/nyawexi)
+[![Discord](https://img.shields.io/badge/qweyns.exp-%23BBDEFB?style=for-the-badge&logo=discord&logoColor=0d1117)](https://discord.com/users/qweyns.exp)
+[![Bio](https://img.shields.io/badge/guns.lol%2Fqweyns-%23BBDEFB?style=for-the-badge&logo=linktree&logoColor=0d1117)](https://guns.lol/qweyns)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+![footer](./footer.svg)
 
 </div>
