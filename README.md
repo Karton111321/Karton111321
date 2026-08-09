@@ -19,7 +19,6 @@
 </picture>
 
 <br/>
-
 ![socials](./socials.svg)
 
 <br/>
