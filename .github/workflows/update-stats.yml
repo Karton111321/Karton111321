@@ -1,0 +1,44 @@
+name: Update stats.svg
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # каждый день в 03:00 UTC
+  workflow_dispatch: {}     # + кнопка "Run workflow" вручную
+  push:
+    branches: [main]
+    paths:
+      - "assets/stats.template.svg"
+      - "scripts/generate_stats.py"
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: qweyns
+        run: python3 scripts/generate_stats.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- stats.svg; then
+            echo "No changes in stats.svg, skipping commit."
+          else
+            git add stats.svg
+            git commit -m "chore: auto-update stats.svg [skip ci]"
+            git push
+          fi
