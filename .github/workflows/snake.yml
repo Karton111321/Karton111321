@@ -12,12 +12,13 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake svg (fog palette)
-        uses: Platane/snk/svg-only@v3
+      - name: Generate snake (fog palette, svg + gif fallback)
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=E4EAEF&color_dots=12151c,3D4F5A,6B8791,93A8B5,C3D2DA
+            dist/snake.svg?color_snake=E4EAEF&color_dots=1c212b,3D4F5A,6B8791,93A8B5,E4EAEF
+            dist/snake.gif?color_snake=E4EAEF&color_dots=1c212b,3D4F5A,6B8791,93A8B5,E4EAEF
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
