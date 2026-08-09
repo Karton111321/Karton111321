@@ -16,6 +16,10 @@
 
 <br/>
 
+![snake](https://raw.githubusercontent.com/qweyns/qweyns/output/snake.svg)
+
+<br/>
+
 ![socials](./socials.svg)
 
 <br/>
