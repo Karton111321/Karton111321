@@ -71,9 +71,8 @@ def main():
     total_time = data_block.get("human_readable_total", "0 mins")
     languages = data_block.get("languages", [])
 
-    (lang1, pct1), (lang2, pct2) = top_languages(languages, top_n=2)
-    other_pct = 100 - pct1 - pct2
-    other_pct = max(other_pct, 0)
+    top_pct, other_pct = top_languages(languages, top_n=2)
+    (lang1, pct1), (lang2, pct2) = top_pct
 
     print(f"  -> {total_time} total, {lang1} {pct1}%, {lang2} {pct2}%, Other {other_pct}%")
 
