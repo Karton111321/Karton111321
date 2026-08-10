@@ -27,17 +27,17 @@ jobs:
 
       - name: Generate discord.svg
         env:
-          DISCORD_USER_ID: "986960453286629417"
+          DISCORD_USER_ID: "ВПИШИ_СВОЙ_DISCORD_ID"
         run: python3 scripts/generate_discord.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- discord.svg; then
+          git add discord.svg
+          if git diff --cached --quiet -- discord.svg; then
             echo "No changes, skipping commit."
           else
-            git add discord.svg
             git commit -m "chore: auto-update discord.svg [skip ci]"
             git push
           fi

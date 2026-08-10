@@ -35,10 +35,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- stats.svg; then
+          git add stats.svg
+          if git diff --cached --quiet -- stats.svg; then
             echo "No changes in stats.svg, skipping commit."
           else
-            git add stats.svg
             git commit -m "chore: auto-update stats.svg [skip ci]"
             git push
           fi
