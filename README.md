@@ -16,14 +16,6 @@
 
 <br/>
 
-![wakatime](./wakatime.svg)
-
-<br/>
-
-![discord](./discord.svg)
-
-<br/>
-
 ![socials](./socials.svg)
 
 <br/>
