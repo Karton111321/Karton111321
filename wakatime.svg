@@ -40,9 +40,9 @@
   <rect x="480" y="99" width="33" height="6" fill="url(#G)" rx="2" filter="url(#glb)"/>
 
   <text x="480" y="138" fill="#E4EAEF">Other</text>
-  <text x="806" y="138" fill="#93A8B5" text-anchor="end">12%</text>
+  <text x="806" y="138" fill="#93A8B5" text-anchor="end">13%</text>
   <rect x="480" y="145" width="326" height="6" fill="#1c212b" rx="2"/>
-  <rect x="480" y="145" width="39" height="6" fill="url(#G)" rx="2" filter="url(#glb)"/>
+  <rect x="480" y="145" width="42" height="6" fill="url(#G)" rx="2" filter="url(#glb)"/>
 </g>
 
 </svg>
