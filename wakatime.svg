@@ -29,20 +29,20 @@
 <text x="44" y="108" font-family="MC,monospace" font-size="12" fill="#93A8B5" letter-spacing="1" opacity="0.75">this week &#183; wakatime</text>
 
 <g font-family="MC,monospace" font-size="11" letter-spacing="1">
-  <text x="480" y="46" fill="#E4EAEF">Java</text>
-  <text x="806" y="46" fill="#93A8B5" text-anchor="end">47%</text>
+  <text x="480" y="46" fill="#E4EAEF">—</text>
+  <text x="806" y="46" fill="#93A8B5" text-anchor="end">0%</text>
   <rect x="480" y="53" width="326" height="6" fill="#1c212b" rx="2"/>
-  <rect x="480" y="53" width="153" height="6" fill="url(#G)" rx="2" filter="url(#glb)"/>
+  <rect x="480" y="53" width="0" height="6" fill="url(#G)" rx="2" filter="url(#glb)"/>
 
-  <text x="480" y="92" fill="#E4EAEF">Markdown</text>
-  <text x="806" y="92" fill="#93A8B5" text-anchor="end">42%</text>
+  <text x="480" y="92" fill="#E4EAEF">—</text>
+  <text x="806" y="92" fill="#93A8B5" text-anchor="end">0%</text>
   <rect x="480" y="99" width="326" height="6" fill="#1c212b" rx="2"/>
-  <rect x="480" y="99" width="137" height="6" fill="url(#G)" rx="2" filter="url(#glb)"/>
+  <rect x="480" y="99" width="0" height="6" fill="url(#G)" rx="2" filter="url(#glb)"/>
 
   <text x="480" y="138" fill="#E4EAEF">Other</text>
-  <text x="806" y="138" fill="#93A8B5" text-anchor="end">12%</text>
+  <text x="806" y="138" fill="#93A8B5" text-anchor="end">100%</text>
   <rect x="480" y="145" width="326" height="6" fill="#1c212b" rx="2"/>
-  <rect x="480" y="145" width="39" height="6" fill="url(#G)" rx="2" filter="url(#glb)"/>
+  <rect x="480" y="145" width="326" height="6" fill="url(#G)" rx="2" filter="url(#glb)"/>
 </g>
 
 </svg>
